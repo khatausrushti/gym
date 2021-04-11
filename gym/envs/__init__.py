@@ -186,6 +186,12 @@ register(
     reward_threshold=8, # optimum = 8.46
     max_episode_steps=200,
 )
+register(
+    id='Taxi-v4',
+    entry_point='gym.envs.toy_text:TaxiEnv',
+    reward_threshold=8, # optimum = 8.46
+    max_episode_steps=200,
+)
 
 register(
     id='GuessingGame-v0',
